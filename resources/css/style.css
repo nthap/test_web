@@ -1,0 +1,191 @@
+html,
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background-color: white;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.main {
+    height: 30rem;
+    padding-top: 1rem;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-5/tsunami-coffee/images/latte.png');
+}
+
+/*
+https://content.codecademy.com/courses/freelance-1/unit-5/tsunami-coffee/images/bg-photo.png'
+"https://cdni0.trtworld.com/w480/h270/q75/8767-trtworld-399984-439138.jpg"
+
+.main img {
+    width: 15rem;
+    display: block;
+    margin: auto;
+    margin-top: 5rem;
+}
+*/
+
+/*NAVIGATION*/
+/*nav {
+    background-color: OrangeRed;
+    color: White;
+}
+*/
+/*
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+}
+*/
+/* Style the top navigation bar */
+.topnav {
+    background-color: #F5F5F5;
+    overflow: hidden;
+
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: blacK;
+}
+
+/*NAVIGATION END*/
+.supporting,
+.rating,
+.gallery,
+.location {
+    margin: 4em auto;
+}
+
+.supporting {
+    display: flex;
+    align-items: flex-start;
+    padding: 0 1rem;
+}
+
+.supporting img {
+    width: 10%;
+    margin-right: 5%;
+}
+
+.rating {
+    background-color: #0072ce;
+    height: 20rem;
+    padding: 0 1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating h1 {
+    font-size: 2.5rem;
+}
+
+.rating img {
+    width: 30rem;
+    display: block;
+    margin: auto;
+    margin-right: 20%;
+}
+
+.gallery img {
+    display: block;
+    width: 30%;
+    margin: 1.5%;
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.location {
+    text-align: center;
+    margin-bottom: 7rem;
+}
+/*
+.landscape {
+    height: 30rem;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 7rem;
+}
+
+.landscape img {
+    max-width: 100%;
+    max-height: 100%;
+}
+*/
+.location img {
+    width: 100%;
+}
+
+footer {
+    background-color: #ADD8E6;
+    padding: 0 1rem;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5em 0;
+    color: white;
+}
+
+@media only screen and (max-width: 960px) {
+    .main {
+        padding-top: 0;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .supporting img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .rating h1 {
+        font-size: 1.5rem;
+    }
+/*
+    .gallery img {
+        width: 100%;
+        margin: 0;
+    }
+
+    footer nav {
+        display: none;
+    }
+*/  
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
