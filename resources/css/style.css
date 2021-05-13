@@ -14,8 +14,9 @@ body {
 .main {
     height: 30rem;
     padding-top: 1rem;
-    background-image: url('https://github.com/nthap/test_web/blob/main/resources/images/Stop_child_marriage.jpg?raw=true');
+    background-image: url('https://static.dw.com/image/39090428_101.jpg');
 }
+/*https://github.com/nthap/test_web/blob/main/resources/images/Stop_child_marriage.jpg?raw=true*/
 
 /*
 https://content.codecademy.com/courses/freelance-1/unit-5/tsunami-coffee/images/bg-photo.png'
@@ -90,7 +91,7 @@ li {
 
 .rating {
     background-color: #0072ce;
-    height: 20rem;
+    height: 30rem;
     padding: 0 1rem;
     color: white;
     display: flex;
