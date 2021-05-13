@@ -90,7 +90,7 @@ li {
 
 .rating {
     background-color: #0072ce;
-    height: 15rem;
+    height: 20rem;
     padding: 0 1rem;
     color: white;
     display: flex;
@@ -104,7 +104,7 @@ li {
 
 .rating img {
     width: 30rem;
-    display: block;
+    display: flex;/*block*/
     margin: auto;
     margin-right: 20%;
 }
