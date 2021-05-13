@@ -61,28 +61,23 @@ body {
 .navbar a {
   float: left;
   display: block;
-  color: white;
+  color: #ADD8E6;
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
 }
 
 
-/* Right-aligned link */
-.navbar a.right {
-  float: right;
-}
-
 /* Change color on hover */
 .navbar a:hover {
-  background-color: #ddd;
+  background-color: lightBlue;
   color: black;
 }
 
 /* Active/current link */
 .navbar a.active {
   background-color: #666;
-  color: white;
+  color: lightBlue;
 }
 
 /* Column container */
