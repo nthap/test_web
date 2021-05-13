@@ -14,7 +14,7 @@ body {
 .main {
     height: 30rem;
     padding-top: 1rem;
-    background-image: url('resources/images/Stop_child_marriage.jpg');
+    background-image: url('../images/Stop_child_marriage.jpg');
 }
 
 /*
