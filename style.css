@@ -9,17 +9,6 @@ body {
   margin: 0;
 }
 
-/* Header/logo Title */
-/*.header {
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center bottom;
-  padding: 80px;
-  text-align: center;
-  /*background: #1abc9c;*/
-  /*color: white;
-}*/
 /*https://cdni0.trtworld.com/w480/h270/q75/8767-trtworld-399984-439138.jpg*/
 #banner {
  background-image: url(./resources/images/Stop_child_marriage.jpg);
