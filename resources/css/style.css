@@ -14,7 +14,7 @@ body {
 .main {
     height: 30rem;
     padding-top: 1rem;
-    background-image: url('../images/Stop_child_marriage.jpg');
+    background-image: url('https://github.com/nthap/test_web/blob/main/resources/images/Stop_child_marriage.jpg');
 }
 
 /*
@@ -90,7 +90,7 @@ li {
 
 .rating {
     background-color: #0072ce;
-    height: 20rem;
+    height: 15rem;
     padding: 0 1rem;
     color: white;
     display: flex;
