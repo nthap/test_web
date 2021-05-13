@@ -20,9 +20,9 @@ body {
   /*background: #1abc9c;*/
   /*color: white;
 }*/
-
+/*https://cdni0.trtworld.com/w480/h270/q75/8767-trtworld-399984-439138.jpg*/
 #banner {
- background-image: url("https://cdni0.trtworld.com/w480/h270/q75/8767-trtworld-399984-439138.jpg");
+ background-image: url(./resources/images/Stop_child_marriage.jpg);
   background-size: cover;
   background-position: bottom center;
   height: 400px;
