@@ -68,16 +68,21 @@ body {
 }
 
 
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
 /* Change color on hover */
 .navbar a:hover {
-  background-color: lightBlue;
+  background-color: lightBlue;/* #ddd;*/
   color: black;
 }
 
 /* Active/current link */
 .navbar a.active {
   background-color: #666;
-  color: lightBlue;
+  color: #ADD8E6;
 }
 
 /* Column container */
