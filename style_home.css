@@ -32,7 +32,7 @@ body {
 }
 
 /* What can we do Banner */
-#banner{
+#banner4{
  background-image: url(./resources/images/Stop_child_marriage.jpg);
   background-size: cover;
   background-position: bottom center;
@@ -41,7 +41,7 @@ body {
   opacity: 0.5;
 }
 
-.banner0 content h1{
+.banner4 content h1{
   border: 3px solid white;
   color: #FFFFFF;
   position: relative;
