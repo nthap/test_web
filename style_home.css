@@ -8,25 +8,38 @@ body {
   margin: 0;
 }
 
+/* Banners for all pages */
 /*https://cdni0.trtworld.com/w480/h270/q75/8767-trtworld-399984-439138.jpg*/
-/*.banner {
+
+/* Home Banner */
+#banner0{
+ background-image: url(./resources/images/home_banner.jpeg);
+  background-size: cover;
+  background-position: bottom center;
+  height: 400px;
+  width: 100%;
+  color: white;
+} 
+
+#banner0 .content h1 {
+  border: 3px solid white;
+  position: relative;
+  top: 50px;
+  width: 400px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+}
+
+/* What can we do Banner */
+#banner{
  background-image: url(./resources/images/Stop_child_marriage.jpg);
   background-size: cover;
   background-position: bottom center;
   height: 400px;
   width: 100%;
   opacity: 0.5;
-} */
-
-.banner0 {
- background-image: url(./resources/images/home_banner.jpeg);
-  background-size: cover;
-  background-position: bottom center;
-  height: 400px;
-  width: 100%;
-  opacity: 0.5;
-} 
-
+}
 
 .banner0 content h1{
   border: 3px solid white;
@@ -39,6 +52,9 @@ body {
   text-align: center;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; 
 }
+
+
+
 
 /* Increase the font size of the heading 
 .header h1 {
