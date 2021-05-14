@@ -12,8 +12,9 @@ body {
 /*https://cdni0.trtworld.com/w480/h270/q75/8767-trtworld-399984-439138.jpg*/
 
 /* Home Banner */
+/*https://images.unsplash.com/photo-1473773508845-188df298d2d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw0OTE4MzZ8fGVufDB8fHx8&w=1000&q=80*/
 #banner0 {
-    background-image: url(https://images.unsplash.com/photo-1473773508845-188df298d2d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw0OTE4MzZ8fGVufDB8fHx8&w=1000&q=80);
+    background-image: url(resources/images/home_banner.jpeg);
     background-size: cover;
     background-position: bottom center;
     height: 400px;
@@ -135,6 +136,12 @@ body {
     color: black;
     text-align: center;
     margin-top: -50px;
+}
+
+.h4intro {
+    color: black;
+    text-align: center;
+    margin-top: -100px;
 }
 
 .h1body {
