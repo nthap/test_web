@@ -54,8 +54,6 @@ body {
 }
 
 
-
-
 /* Increase the font size of the heading 
 .header h1 {
   font-size: 40px;
@@ -139,11 +137,12 @@ body {
 
 .video {
     display: block;
-    height: 300px;
+    height: 400px;
     margin: 0 auto;
-    width: 100%; /*450px;*/
-    align-self: center;
+    width: 550px;
+    align-content: center;
 }
+
 
 /* Footer */
 .footer {
