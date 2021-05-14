@@ -133,17 +133,23 @@ body {
 
 .intro {
     color: black;
-    margin-bottom: 50px;
     text-align: center;
     margin-top: -50px;
 }
 
 .h1body {
     color: black;
-    margin-bottom: 50px;
-    margin-top: 80px;
+      margin-top: 80px;
     text-align: center;
 }
+
+p {
+color: black;
+text-align: justify;
+font-size: 15pt;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+} 
+
 
 .image2 {
     width: 100%;
