@@ -13,7 +13,7 @@ body {
 
 /* Home Banner */
 #banner0{
- background-image: url(./resources/images/home_banner.jpeg);
+ background-image: url(https://images.unsplash.com/photo-1473773508845-188df298d2d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw0OTE4MzZ8fGVufDB8fHx8&w=1000&q=80);
   background-size: cover;
   background-position: bottom center;
   height: 400px;
@@ -52,6 +52,8 @@ body {
   text-align: center;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; 
 }
+
+
 
 
 /* Increase the font size of the heading 
@@ -120,7 +122,8 @@ body {
   padding: 7rem;
 }
 .main h1{
-  padding-bottom: 7%;
+  margin-top: -50px;
+  padding-bottom: 2%;
   text-align: center;
 }
 /* Fake image, just for this example */
@@ -142,8 +145,14 @@ body {
     width: 550px;
     align-content: center;
 }
-
-
+/*
+.video {
+  width: 650px;
+  height: 500px;
+  align: center;
+  margin: 0px 425px;
+}
+*/
 /* Footer */
 .footer {
   padding: 20px;
