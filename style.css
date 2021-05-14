@@ -10,7 +10,7 @@ body {
 }
 
 /*https://cdni0.trtworld.com/w480/h270/q75/8767-trtworld-399984-439138.jpg*/
-#banner {
+#banner4{
  background-image: url(./resources/images/Stop_child_marriage.jpg);
   background-size: cover;
   background-position: bottom center;
@@ -19,7 +19,7 @@ body {
   opacity: 0.5;
 } 
 
-#banner .content h1 {
+#banner4 .content h1 {
   border: 3px solid white;
   color: #FFFFFF;
   position: relative;
