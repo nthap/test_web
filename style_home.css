@@ -121,6 +121,7 @@ body {
 
 }
 .video {
+  text-align: center;
   display: block;
   /*height: 300px;
   margin: 0 auto;
