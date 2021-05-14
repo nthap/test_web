@@ -41,7 +41,7 @@ body {
     opacity: 0.5;
 }
 
-#banner4 content h1 {
+#banner4 .content h1 {
     border: 3px solid white;
     color: #FFFFFF;
     position: relative;
